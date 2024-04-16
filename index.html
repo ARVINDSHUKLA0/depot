@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="position-relative f-size ">
+                <div class="d-flex justify-contant-between align-items-center py-lg-0 py-4">
+                    <div class="flex-grow-1 navbar-list-wrapper" id="sideBar">
+                        <button class="position-absolute btn top-0 end-0 text-white btn-bars"
+                            onclick="closeSideBar()"><i class="fa-solid fa-xmark fs-5"></i></button>
+                        <div class="d-lg-block d-flex align-items-center justify-content-center navbar-list-item-wrap">
+                            <ul class="d-lg-flex d-block  p-0 m-0 align-items-center gap-4 nav-list-box cursor-pointer">
+                                <li class="py-3 text-uppercase nested-nav-li position-relative "> home
+                                    <div class="nested-nav-ul">
+                                        <ul class=" p-0 pt-md-0 mt-2">
+                                            <li>
+                                                <a href="#" class="text-capitalize product-text">main home </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">minimal home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">masonry home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">classic home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">passepartout home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">left menu home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">boxed home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">full screen home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">product showcase</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">slider showcase</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">simple home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">split showcase</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">landing pages</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="py-3 text-uppercase nested-navbar-li black-color-text"> shop
+                                    <div class="nested-navbar-ul nested-nav-width">
+                                        <div class="row pt-md-0 pt-4">
+                                            <div class="col-lg-3 col-12 mb-4">
+                                                <ul class="p-0 pt-3">
+                                                    <ul class="mb-3 p-0 text-uppercase">
+                                                        <li>
+                                                            <a href="#" class="product-text">shop types</a>
+                                                        </li>
+                                                    </ul>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">left sidebar</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">with filter</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">masonry-grid</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">masonry-wide</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">shop carousel</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">shop boxed</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">single category</a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4">
+                                                <ul class="p-0 pt-3">
+                                                    <ul class="mb-3 p-0 text-uppercase ">
+                                                        <li>
+                                                            <a href="#" class="product-text">product types</a>
+                                                        </li>
+                                                    </ul>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">product type</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">standard product </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">variable product </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">downloadable product </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">virtual product</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">external product</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">new! product</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">on sale product</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">out of stock product</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4">
+                                                <ul class="p-0 pt-3">
+                                                    <ul class="mb-3 p-0 text-uppercase">
+                                                        <li>
+                                                            <a href="#" class="product-text">featured</a>
+                                                        </li>
+                                                    </ul>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">featured</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">user dashbord</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">order tacking</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">my account</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">cart</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">checkout</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">addresses</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">payment method </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4">
+                                                <ul class="p-0 pt-3">
+                                                    <ul class="mb-3 p-0 text-uppercase ">
+                                                        <li class="product-text">layouts</li>
+                                                    </ul>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">layouts</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">two columns grid </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-uppercase">three columns grid</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">four columns grid </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">four columns wide </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">five columns wide </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">six columns wide </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-3 text-uppercase nested-nav-li position-relative black-color-text"> pages
+                                    <div class="nested-nav-ul">
+                                        <ul class="p-0 pt-md-0 mt-2 ">
+                                            <li>
+                                                <a href="#" class="text-capitalize">main home </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">minimal home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">masonry home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">classic home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">passepartout home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">left menu home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">boxed home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">full screen home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">product showcase</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">slider showcase</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">simple home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">split showcase</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="text-capitalize">landing pages</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="py-3 text-uppercase nested-navbar-li black-color-text "> elements
+                                    <div class="nested-navbar-ul nested-nav-width">
+                                        <div class="row pt-md-0 pt-4 ">
+                                            <div class="col-lg-3 col-12 mb-lg-0 mb-4 ">
+                                                <div>
+                                                    <ul class="text-white p-0 pt-3">
+                                                        <ul class="mb-3 p-0 text-uppercase ">
+                                                            <li>
+                                                                <a href="#" class="product-text">shop shortcodes</a>
+                                                            </li>
+                                                        </ul>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">shop shortcodes</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">product list</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">product list -
+                                                                carousel</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">product list-simple </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">on sale product</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">top reated product</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">best seling product</a>
+                                                        </li>
+
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">product by attribute</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">single category list</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="text-capitalize">order tracking </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4">
+                                                <ul class="p-0 pt-3">
+                                                    <ul class="mb-3 p-0 text-uppercase">
+                                                        <li>
+                                                            <a href="#" class="product-text">classic</a>
+                                                        </li>
+                                                    </ul>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">classic</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">accordins & toggies </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">tabs </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">buttons </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">call to action</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">separalors</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">contact form</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">icon with text</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">message boxes</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">typography</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4">
+                                                <ul class="p-0 pt-3">
+                                                    <ul class="mb-3 p-0 text-uppercase ">
+                                                        <li>
+                                                            <a href="#" class="product-text">inforgraphic</a>
+                                                        </li>
+                                                    </ul>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">featured</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">user dashbord</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">order tacking</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">my account</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">cart</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">checkout</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">addresses</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">payment method </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4">
+                                                <ul class="p-0 pt-3">
+                                                    <ul class="mb-3 p-0 text-uppercase ">
+                                                        <li>
+                                                            <a href="#" class="product-text">presentation</a>
+                                                        </li>
+                                                    </ul>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">layouts</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">two columns grid </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">three columns grid</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">four columns grid </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">four columns wide </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">five columns wide </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="text-capitalize">six columns wide </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-grow-1">
+                        <div class="text-lg-center text-start cursor-pointer">
+                            <img src="./assets/img/logo.png" alt="" width="100" class="m-lg-auto m-0">
+                        </div>
+                    </div>
+                    <div class=" flex-grow-1 d-lg-block d-none">
+                        <ul class="d-flex justify-content-end align-items-center mt-3 gap-3 cursor-pointer">
+                            <li class="py-3 text-uppercase"> <span class="black-color-text">cart</span> <span>($0)</span>
+                            </li>
+                            <li class=" py-3 text-uppercase "><span class="black-color-text"><i class="fa-regular fa-heart"></i> </span>(0)</li>
+                            <li class=" py-3 text-uppercase black-color-text"><i class="fa-regular fa-user"></i> login </li>
+                            <li class="py-3 text-uppercase black-color-text"><i class="fa-solid fa-magnifying-glass"></i></li>
+                            <li class=" py-3 text-uppercase fs-6 cursor-pointer black-color-text" onclick="openWelcomeSideBar()"><i
+                                    class="fa-solid fa-bars"></i></li>
+                        </ul>
+                    </div>
+                    <div class="d-lg-none d-block">
+                        <button class="border-0 bg-transparent" onclick="openSideBar()">
+                            <span class="text-uppercase fw-bold">menu
+                                <i class="fa-solid fa-bars"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="bannerWrapper">
+        <div class="banner-container banner-font-size">
+            <div class="row align-items-center innerBanner align-items-center slider-background-color" id="innerBanner">
+                <div class="col-md-6 col-sm-6 col-12 order-sm-0 order-1">
+                    <div class="text-center">
+                        <h3 class="text-uppercase banner-heading pb-3 mt-2 contant-align banner-contant ">contemporary
+                            design</h3>
+                        <p class="banner-font contant-align banner-contant">A large set of beautiful & fully fixible
+                            homepage <br> layouts lets, you create you website quickly & easily </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-12 order-sm-1 order-0 text-center">
+                    <img src="./assets/img/h1-slide3-img.jpg" alt="" class="banner-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container f-size ">
+            <div class="d-flex align-items-center justify-contant-between gap-4 mt-5 mb-2  ">
+                <div class=" position-relative flex-grow-1">
+                    <span class="d-lg-none d-block cursor-pointer">
+
+                        <span class="text-dark text-uppercase " onclick="categoryShowFunc()">Category
+                            <i class="fa-solid fa-caret-up text-dark"></i>
+                        </span>
+
+                    </span>
+                    <div class="categoryWrap mt-3" id="categoryWrap">
+                        <ul class="d-lg-flex d-block gap-4 p-0">
+                            <li>
+                                <a href="#" class="text-uppercase f-size black-color-text ">all</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-uppercase">home decor</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-uppercase">lighting </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-uppercase">decoration</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-uppercase">vases</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-uppercase">basics</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" text-end position-relative">
+                    <div class="position-relative product-filter-wrapper">
+                        <span>
+                            <span class="text-dark text-uppercase  ">filter</span>
+                            <i class="fa-solid fa-caret-up text-dark"></i>
+                        </span>
+                        <div class="position-absolute top-100 end-0  bg-dark product-filter-dropdown mt-3">
+                            <!-- <div class="row text-center  ">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12 pt-4">
+                                    <ul class="p-0 m-0">
+                                        <li>
+                                            <a href="#" class="text-capitalize">sort by</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">default</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">popularity</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">average rating</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">newness</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">price low to high</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">price high to low</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-12 pt-4">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="text-capitalize">price range</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">all</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$0-$10</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$10-$20</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$20-$30</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$30-$40</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">40$+</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <div class="row pt-4">
+                                <div class="col-6 ">
+                                    <ul class="p-0 text-center">
+                                        <li>
+                                            <a href="#" class="text-capitalize">price range</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">all</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$0-$10</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$10-$20</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$20-$30</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$30-$40</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">40$+</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="p-0 text-center">
+                                        <li>
+                                            <a href="#" class="text-capitalize">price range</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">all</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$0-$10</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$10-$20</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$20-$30</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">$30-$40</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="text-capitalize">40$+</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5 ">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-8-600x728.jpg" alt="" width="235" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-7-600x728.jpg" alt="" width="235" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-6-600x728.jpg" alt="" width="235" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-5-600x728.jpg" alt="" width="235" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-4-600x728.jpg" alt="" width="235" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-2-600x728.jpg" alt="" width="235" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-3-1-600x728.jpg" alt="" width="235" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                    <div class=" position-relative overflow-hidden">
+                        <img src="./assets/img/h1-product-1-600x728.jpg" alt="" width="230" class="img-fluid">
+                        <div
+                            class="position-absolute product-wishlist-button-wrapper text-center d-flex align-items-center justify-content-center w-100">
+                            <span class="d-flex align-items-center h-100 ">
+                                <p class="bg-dark  mb-0  h-100 px-3 text-uppercase Quick-Look-content">Quick Look</p>
+                                <i class="fa-regular fa-heart h-100 py-1 px-2 bg-secondary text-white "></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="">
+                        <p class="mb-2 text-uppercase text-dark mt-3 fw-bold">basket with handles</p>
+                        <div class="product-button-price-wrapper w-100 position-relative overflow-x-hidden ">
+                            <div class="position-absolute top-0 w-100 text-center product-addcart-button-box "><button
+                                    class=" border-0 text-uppercase btn-content bg-white">add to cart</button></div>
+                            <div class="w-100  text-center position-absolute top-0 product-price  ">$160</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class=" border-top border-light">
+            <div class="container f-size">
+                <div class="text-capitalize mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li class="mb-4">
+                                    <a href="#" class="text-dark text-uppercase footer-font-size">customer service </a>
+                                </li>
+                                <li>
+                                    <a href="#">help & contact us</a>
+                                </li>
+                                <li>
+                                    <a href="#">returns & refunds</a>
+                                </li>
+                                <li>
+                                    <a href="#">online store</a>
+                                </li>
+                                <li>
+                                    <a href="#">terms & conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li class="mb-4">
+                                    <a href="#" class="text-dark footer-font-size  text-uppercase ">company</a>
+                                </li>
+                                <li>
+                                    <a href="#">what we do</a>
+                                </li>
+                                <li>
+                                    <a href="#">available services</a>
+                                </li>
+                                <li>
+                                    <a href="#">latest posts</a>
+                                </li>
+                                <li>
+                                    <a href="#">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li class="mb-4">
+                                    <a href="#" class="text-dark text-uppercase footer-font-size ">social media</a>
+                                </li>
+                                <li>
+                                    <a href="#">twiter</a>
+                                </li>
+                                <li>
+                                    <a href="#">instagram</a>
+                                </li>
+                                <li>
+                                    <a href="#">tumbir</a>
+                                </li>
+                                <li>
+                                    <a href="#">pinterest</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <ul>
+                                <li class="mb-4">
+                                    <a href="#" class="text-dark text-uppercase footer-font-size ">profile </a>
+                                </li>
+                                <li>
+                                    <a href="#">my account </a>
+                                </li>
+                                <li>
+                                    <a href="#">checkout </a>
+                                </li>
+                                <li>
+                                    <a href="#">order-tracking </a>
+                                </li>
+                                <li>
+                                    <a href="#">help & support</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container f-size ">
+                <div class="border-top border-light pt-3">
+                    <div class="row px-4">
+                        <div class="col-lg-6 col-md-6 col-sm-12 ">
+                            <p>© 2021 Qode Interactive, All Rights Reserved</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 text-end">
+                            <ul class="d-flex justify-content-sm-start justify-content-md-end p-0 gap-4">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+
+    <aside class="min-vh-100 w-50 f-size bg-dark position-fixed welcome-sideBar-wrap top-0" id="welcomeSideWrap">
+        <div class="row px-5">
+            <div class="col-lg-12 text-end py-5">
+                <!-- <button onclick="removeWelcomeSideBar()">close</button> -->
+                <span onclick="removeWelcomeSideBar()" class="cursor-pointer"><i
+                        class="fa-solid fa-xmark fs-5"></i></span>
+            </div>
+            <div class="col-lg-12 text-center">
+                <p class="text-uppercase text-white">welcome</p>
+            </div>
+            <div class="col-lg-12 text-center mb-2">
+                <p class="text-white siderbar-weight">Advertising is the way great brands get to be great brands.</p>
+            </div>
+            <div class="row siderbar-padding cursor-pointer">
+                <div class="col-lg-3 ">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assets/img/121706350_341238710274276_2107885337301681786_n.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-lg-12 text-center mt-3 text-white ">
+                    <p class="text-uppercase ">we are awesome follow us </p>
+                </div>
+                <div class="col-lg-12 text-center text-white fs-6">
+                    <i class="fa-brands fa-twitter px-2 "></i>
+                    <i class="fa-brands fa-instagram px-2"></i>
+                    <i class="fa-brands fa-facebook-f px-2"></i>
+                </div>
+            </div>
+
+        </div>
+    </aside>
+
+    <script>
+        function categoryShowFunc() {
+            const categoryWrap = document.getElementById('categoryWrap')
+            if (categoryWrap.style.height == "250px") {
+                // categoryWrap.style.display = "none"
+                categoryWrap.style.height = "0px";
+                categoryWrap.style.zIndex = "100";
+            }
+            else {
+                // categoryWrap.style.display = "block";
+                categoryWrap.style.height = "250px";
+            }
+        }
+
+        const bannerSize = document.getElementById('innerBanner')
+        const bannerWrapperSize = document.getElementById('bannerWrapper')
+        console.log("bannerWrapperSize", bannerWrapperSize.clientWidth);
+        console.log("bannerSize", bannerSize.clientWidth);
+
+        if (bannerWrapperSize.clientWidth >= 576) {
+            console.log(parseInt(bannerSize.clientWidth) / 2.5);
+            bannerSize.style.height = `${bannerSize.clientWidth / 2.3}px`
+        }
+
+        function removeWelcomeSideBar() {
+            const sideWrap = document.getElementById('welcomeSideWrap')
+            sideWrap.style.right = "-50%"
+        }
+        function openWelcomeSideBar() {
+            const sideWrap = document.getElementById('welcomeSideWrap')
+            sideWrap.style.right = "0%"
+        }
+        function openSideBar() {
+            const sideWrap = document.getElementById('sideBar')
+            sideWrap.style.right = "0px"
+        }
+        function closeSideBar() {
+            const sideWrap = document.getElementById('sideBar')
+            sideWrap.style.right = "-340px"
+        }
+
+    </script>
+</body>
+
+</html>
