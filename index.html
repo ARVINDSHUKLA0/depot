@@ -519,7 +519,7 @@
                 </div>
             </div>
             <div class="row text-center mt-5 ">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/2.jpg" alt="" width="235" class="img-fluid">
                         <div
@@ -541,7 +541,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/4.jpg" alt="" width="235" class="img-fluid">
                         <div
@@ -563,7 +563,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/6.jpg" alt="" width="235" class="img-fluid">
                         <div
@@ -585,7 +585,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/9.jpg" alt="" width="235" class="img-fluid">
                         <div
@@ -607,7 +607,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/11.jpg" alt="" width="235" class="img-fluid">
                         <div
@@ -629,7 +629,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/15.jpg" alt="" width="235" class="img-fluid">
                         <div
@@ -651,7 +651,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/4.jpg" alt="" width="235" class="img-fluid">
                         <div
@@ -673,7 +673,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 position-relative product-item-box cursor-pointer">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 position-relative product-item-box cursor-pointer">
                     <div class=" position-relative overflow-hidden">
                         <img src="./assets/img/17.jpg" alt="" width="230" class="img-fluid">
                         <div
@@ -709,11 +709,11 @@
             <p>JION OUR COMMUNTY</p>
             <div class="row align-items-center">
                 <div class="col-md-4">
-                    <h2 class="text-blue">NEWSLETTER</h2>
+                    <h3 class="text-blue">NEWSLETTER</h3>
                 </div>
                 <div class="col-md-8 col-12">
                     <div class="border border-dark rounded-pill d-flex justify-content-between gap-2 ps-3">
-                        <input type="text" name="your email" id="" class="flex-grow-1 d-block border-0 bg-transparent newsletter-input">
+                        <input type="text" name="your email" id="" class="flex-grow-1 d-block border-0 bg-transparent newsletter-input" placeholder="Enter Email">
                         <span class="bg-primar bg-red rounded-pill mb-0 text-white px-4 py-2">Submit</span>
                     </div>
                 </div>
@@ -900,14 +900,11 @@
     <script>
         function categoryShowFunc() {
             const categoryWrap = document.getElementById('categoryWrap')
-            if (categoryWrap.style.height == "250px") {
-                // categoryWrap.style.display = "none"
-                categoryWrap.style.height = "0px";
-                categoryWrap.style.zIndex = "100";
+            if (categoryWrap.style.height == "200px") { 
+                categoryWrap.style.height = "0px"; 
             }
-            else {
-                // categoryWrap.style.display = "block";
-                categoryWrap.style.height = "250px";
+            else { 
+                categoryWrap.style.height = "200px";
             }
         }
 
